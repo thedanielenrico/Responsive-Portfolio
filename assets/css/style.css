@@ -1,0 +1,236 @@
+header {
+    background: #fff;
+    width: 100%;
+    height: 80px;
+}
+
+body {
+    background: #fff;
+    border-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-image: url(../images/topography.png);
+    margin: 0px;
+}
+
+h1.content {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    position: relative;
+    left: 17px;
+    top: 12px;
+    font-family: 'Noto Serif TC', serif;
+    font-style: bold;
+}
+
+h2 {
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    background: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 45px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+#navigation {
+    text-align: right;
+    font-size: 12px;
+    position: relative;
+    left: 65%;
+    top: -35px;
+    width: 300px;
+}
+ul li {
+    display: inline;
+}
+.listItems {
+    border-right: 1px solid;
+    border-right-width: 1px;
+    padding: 0.5em;
+}
+p {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.mainContent {
+    width: 960px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #ccc;
+    margin: 0 auto;
+    background: #fff;
+}
+#profileImage {
+    float: left;
+    width: 100px;
+    margin: 5px;
+    padding: 7px;
+}
+.content {
+    padding: 5px;
+}
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+form {
+    font-size: 10px;
+    padding: 10px;
+}
+label {
+    text-align: left;
+    font-size: 12px;
+}
+#contentHR {
+    width: 935px;
+}
+#name {
+    color: #fff;
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 120px;
+    height: 22px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    right: 403px;
+    top: 18px;
+    font-size: 16px;
+    text-align: center;
+}
+#headerHR {
+    position: relative;
+    top: -8px;
+}
+#footerHR {
+    position: relative;
+    top: -30%;
+    height: 6px;
+    background-color: #4aaaa5;
+    border: 0px;
+}
+.portfolioImage {
+    width: 200px;
+    padding: 12px;
+}
+@media screen and (max-width: 980px) {
+  body {
+      width: 100%;
+  }
+  header {
+      height: 60px;
+  }
+  #name {
+      position: relative;
+      right: 330px;
+      top: -2px;
+  }
+  .mainContent {
+      width: 80%;
+      float: left;
+      margin-left: 30px;
+  }
+  #contentHR {
+      width: 93%;
+  }
+  #profileImage {
+      width: 200px;
+      padding: 20px;
+  }
+  #navigation {
+      position: relative;
+      left: 435px;
+      top: -45px;
+  }
+  p {
+      padding: 20px;
+      text-align: justify;
+  }
+  .portfolioImage {
+    padding: 20px;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+}
+
+}
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    header {
+        height: 60px;
+    }
+    #name {
+        position: relative;
+        right: 210px;
+        top: 0px;
+    }
+    #navigation {
+        position: relative;
+        left: 355px;
+        top: -50px;
+    }
+    .mainContent {
+        width: 80%;
+    }
+    #contentHR {
+        width: 91%;
+    }
+    #profileImage {
+        width: 50%;
+        padding: 20px;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+@media screen and (max-width: 640px) {
+    body {
+        width: 100%;
+    }
+    #name {
+        width: 100%;
+        position: static;
+        height: 12px;
+    }
+    #navigation {
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+    header {
+        height: 90px;
+    }
+    .mainContent {
+        width: 80%;
+    }
+    #profileImage {
+        width: 87%;
+        position: relative;
+        left: 9px;
+    }
+    #contentHR {
+        width: 90%;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
